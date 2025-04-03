@@ -26,8 +26,12 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	} else {
+		fmt.Println("Your rating is: ", numRating)
 		numRating = numRating + 1.5
 		fmt.Println(numRating)
 		fmt.Println("Thank you for your rating")
 	}
 }
+
+
+// go build give us .exe file 
